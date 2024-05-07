@@ -1,0 +1,270 @@
+.review-area{
+    width: 330px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color:#FFFFFF;
+    color: #2B2B43;
+}
+.review-hero{
+    padding: 80px 220px;
+}
+.rating p{
+    font-size: 14.63px;
+    font-weight: 700;
+    line-height: 16.1px;
+    letter-spacing: 0.08px;
+    text-align: left;
+}
+.review-area .btn-review button{
+    width: Hug (107.62px)px;
+    height: Hug (39.46px)px;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #4E60FF;
+    color:#4E60FF;
+    background-color: #FFFFFF;
+    font-size: 12.52px;
+    font-weight: 700;
+    line-height: 17.89px;
+    letter-spacing: 0.26828572154045105px;
+    text-align: center;
+}
+.rating-particulars{
+    width: Hug (141px)px;
+    height: Hug (25.04px)px;
+    gap: 10.73px;
+}
+.rating-number {
+    font-size: 18px; 
+    font-weight: 700;
+    line-height: 15.04px;
+    letter-spacing: 0.08px;
+    text-align: left;
+    color: #4E60FF;
+}
+.votes {
+    font-size: 8.94px;
+    font-weight: 400;
+    line-height: 12.52px;
+    text-align: left;
+    color: #83859C;
+}
+.sort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.custom-dropdown {
+    background-color: transparent; /* Set background color to transparent */
+    padding: 8px; /* Add padding for better spacing */
+    font-size: 16px; /* Adjust font size */
+    color: #333; /* Set text color */
+    outline: none; /* Remove default outline */
+    border: none;
+    font-size: 14.63px;
+    font-weight: 600;
+    line-height: 16.1px;
+    text-align: left;
+    cursor: pointer;
+
+}
+.review-sort-box{
+    border: 1px solid #83859C;
+    width: max-content;
+    padding: 0px 5px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.custom-label{
+    font-size: 11.63px;
+    font-weight: 600;
+    line-height: 16.1px;
+    text-align: left;
+    color: #83859C;
+}
+.customer-name>p{
+    font-size: 17.52px;
+    font-weight: 700;
+    line-height: 17.89px;
+    letter-spacing: 0.08px;
+    text-align: left;
+}
+.customer-date>p{
+    font-size: 12.94px;
+    font-weight: 700;
+    line-height: 12.52px;
+    text-align: left;
+    color:#83859C;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.customer-stars {
+    margin-top: -15px;
+}
+.review-text{
+    font-size: 12.52px;
+    font-weight: 400;
+    line-height: 17.89px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #2B2B43;
+}
+
+.food-cart-box{
+    position: absolute;
+    top:550px;
+    left: 290px;
+}
+.food-display{
+    padding: 12px 12px 0px 12px;
+    background-color: #FFFFFF;
+    width: 292px;
+    border-radius: 12px;
+}
+.food-name{
+    font-size: 18.12px;
+    font-weight: 500;
+    line-height: 20.16px;
+    letter-spacing: 0.085px;
+    text-align: left;
+    margin-top: 10px;
+}
+.food-discription{
+    font-size: 11.92px;
+    font-weight: 400;
+    line-height: 18.12px;
+    letter-spacing: 0.567px;
+    text-align: left;
+    color: #83859C;
+}
+.food-add{
+    height: 30px;
+    width: 30px;
+    background-color: #F3F4FF;
+    border-radius: 6px;
+}
+.food-add button{
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+.food-cart{
+    padding-bottom: 10px;
+}
+.food-cost{
+    font-size: 20.16px;
+    font-weight: 800;
+    line-height: 26.88px;
+    letter-spacing: 0.085px;
+    text-align: left;
+}
+.vertical-review{
+    padding: 0px 0px 0px 10px;
+    background-color: #FFFFFF;  
+    width: 720px;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+.vertical-img{
+    margin-top: 10px;
+}
+.vertical-title{
+    font-size: 20.24px;
+    font-weight: 700;
+    line-height: 20.32px;
+    letter-spacing: 0.08px;
+    text-align: left;
+}
+.vertical-discription{
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 8px;
+}
+.vertical-text {
+    font-size: 14.01px;
+    font-weight: 400;
+    line-height: 15.24px;
+    letter-spacing: 0.663px;
+    text-align: left;
+    color: #83859C;
+    margin-top: -5px;
+}
+.vertical-count{
+    margin-right: 35px;
+}
+.vertical-count button{
+    border: none;
+    outline: none;
+    width: 25px;
+    border-radius: 6.77px;
+}
+.vertical-cost{
+    margin-top: -5px;
+    font-size: 20.32px;
+    font-weight: 800;
+    line-height: 27.09px;
+    letter-spacing: 0.08465754240751266px;
+    text-align: left;
+    color: #2B2B43;
+}
+.vertical-btn{
+    width: Hug (112.41px)px;
+    height: Hug (37.32px)px;
+    padding: 10.16px 13.55px 10.16px 13.55px;
+    gap: 6.77px;
+    border-radius: 6.77px 0px 0px 0px;
+    margin-left: 280px;
+}
+.vertical-btn button{
+    border: none;
+    outline: none;
+    margin-top: -20px;
+    background-color: #F3F4FF;
+    border-radius: 8px;
+    color: #4E60FF;
+    font-size: 11.85px;
+    font-weight: 700;
+    line-height: 16.93px;
+    letter-spacing: 0.2539726197719574px;
+    text-align: center;
+}
+.carousel-title{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0.102px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.carousel-description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.102px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.carousel-btns button{
+    height: 14px;
+    width: 8px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+@media (max-width:576px){
+    .review-hero{
+        padding: 10px 0px 0px 50px;
+    }
+    .food-cart-box{
+        display: none;
+    }
+    .food-display{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+}

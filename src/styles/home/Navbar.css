@@ -1,0 +1,177 @@
+.app-name{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.app-name a{
+    color: inherit;
+    text-decoration: none;
+}
+.app-name a p{
+    line-height: 1;
+}
+.app-name a p span{
+    color: #4E60FF;
+}
+.navrow{
+    margin-bottom: -8px;
+}
+.nav-search{
+    padding-top: 4px;
+    padding-left: 10px;
+    background: #EDEEF2;
+    border-radius: 12px;
+    height: 40px;
+    width: 100%; /* Make search bar width 100% */
+    max-width: 224px; /* Add a max-width */
+    position: relative;
+    top: 30px;
+    margin-left: auto; /* Center the search bar */
+    margin-right: auto;
+}
+
+.nav-search form {
+    display: flex; /* Ensure form items align in a row */
+    align-items: center;
+}
+
+.nav-search input{
+    border: none;
+    border-radius: 0;
+    outline: none;
+    height: 30px;
+    flex: 1; /* Take remaining space */
+    background-color: inherit;
+}
+
+.nav-search button{
+    border: none;
+    color: #83859C;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+    margin-right: 20px;
+}
+
+
+.nav-line{
+    height: 30px;
+    border: 1px solid #EDEEF2;
+    margin-right: 30px;
+}
+.nav-list {
+    list-style: none;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px; 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: left;  
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #2B2B43;
+}
+.nav-cart{
+    height: 48px;
+    width: 48px;
+    background-color: #F3F4FF;
+    border-radius: 16px;
+    text-align: center;
+}
+.nav-count{
+    width: 20px;
+    height: 20px;
+    background-color: #4E60FF;
+    border-radius: 8px;
+    position: relative;
+    left: 30px;
+    top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-count p{
+    font-size: 9px;
+    font-weight: 500;
+    text-align: center;
+    color: #F3F4FF;
+    margin-top: 15px;
+}
+.nav-acc-pic{
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    margin-left: 30px;
+    transition: opacity 0.3s ease-in-out;
+}
+.hamburger {
+    display: none; /* Hide hamburger icon by default */
+}
+
+@media (max-width: 575px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        height: 28px;
+        width: 28px;
+        border-radius: 16px;
+        background-color: #EDEEF2;
+        padding: 12px;
+        color: #83859C;
+    }
+    .nav-elements {
+        display: none; /* Hide menu items by default on xs screens */
+        flex-direction: column; /* Display menu items in a column */
+        align-items: flex-end; /* Align menu items to the right */
+    }
+
+    .show-menu  {
+        display: flex;
+    }
+    .nav-search{
+        display: none; 
+    }
+    .nav-list {
+        display: flex;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 110px;
+        margin-top: -15px;
+        width:330px;
+        opacity: 1;
+    }
+    .nav-acc-pic{
+        margin-right: 30px;
+    }
+    .nav-line{
+        display: none;
+    }
+    .nav-cart{
+        margin-right: 10px;
+    }
+    .nav-row {
+        flex-direction: column; /* Stack logo and search vertically on xs screens */
+    }
+    .hide-show-menu{
+        display: none;
+    }
+    .hide-nav-cart{
+        display:none;
+    }
+    .hide-nav-acc-pic{
+        display: none;
+    }
+    .app-name{
+        margin-left: -20px;
+    }
+}
