@@ -58,11 +58,11 @@
 }
 
 .custom-dropdown {
-    background-color: transparent; /* Set background color to transparent */
-    padding: 8px; /* Add padding for better spacing */
-    font-size: 16px; /* Adjust font size */
-    color: #333; /* Set text color */
-    outline: none; /* Remove default outline */
+    background-color: transparent; 
+    padding: 8px; 
+    font-size: 16px;
+    color: #333; 
+    outline: none;
     border: none;
     font-size: 14.63px;
     font-weight: 600;
