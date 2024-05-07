@@ -22,16 +22,16 @@
     background: #EDEEF2;
     border-radius: 12px;
     height: 40px;
-    width: 100%; /* Make search bar width 100% */
-    max-width: 224px; /* Add a max-width */
+    width: 100%;
+    max-width: 224px; 
     position: relative;
     top: 30px;
-    margin-left: auto; /* Center the search bar */
+    margin-left: auto; 
     margin-right: auto;
 }
 
 .nav-search form {
-    display: flex; /* Ensure form items align in a row */
+    display: flex; 
     align-items: center;
 }
 
@@ -40,7 +40,7 @@
     border-radius: 0;
     outline: none;
     height: 30px;
-    flex: 1; /* Take remaining space */
+    flex: 1;
     background-color: inherit;
 }
 
@@ -114,7 +114,7 @@
     transition: opacity 0.3s ease-in-out;
 }
 .hamburger {
-    display: none; /* Hide hamburger icon by default */
+    display: none; 
 }
 
 @media (max-width: 575px) {
@@ -129,9 +129,9 @@
         color: #83859C;
     }
     .nav-elements {
-        display: none; /* Hide menu items by default on xs screens */
-        flex-direction: column; /* Display menu items in a column */
-        align-items: flex-end; /* Align menu items to the right */
+        display: none;
+        flex-direction: column; 
+        align-items: flex-end; 
     }
 
     .show-menu  {
@@ -160,7 +160,7 @@
         margin-right: 10px;
     }
     .nav-row {
-        flex-direction: column; /* Stack logo and search vertically on xs screens */
+        flex-direction: column;
     }
     .hide-show-menu{
         display: none;
