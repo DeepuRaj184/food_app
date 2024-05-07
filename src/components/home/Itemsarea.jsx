@@ -44,9 +44,14 @@ const FoodItems = [
 ]
 const Itemarea = ()=>{
 
-    const {updateFilteredFood} = useContext(foodContext)
+    // Component to display food items
+        const Itemarea = () => {
+    // Using useContext hook to access food context
+    const { updateFilteredFood } = useContext(foodContext)
 
+    // Function to handle category selection
     const handleCategory = (category) => {
+        // Call the updateFilteredFood function from the context with the selected category
         updateFilteredFood(category);
     };
     return(
